@@ -1,13 +1,11 @@
 ﻿using System;
 
 class Project1Template{    
-    //Create variables here
+    //Class Variables 
     static string[] enemyActions = new string[]{"Heal", "Punched"};
-    static int maxEnemyHP = 30;
     static int currEnemyHP = 30;
     static int currPlayerHP = 45;
-    static int maxPlayerHP = 45;
-
+    static int maxEnemyHP = 30;
     static bool running;
 
 
@@ -15,30 +13,31 @@ class Project1Template{
     public static void Main() {
         Console.WriteLine("Welcome to the fight club!");
         
+        
     }
 
     //TODO Part 2 Commands Method
+   
 
     //TODO Part 3 Player Method
     public static void player(){
         int num = 0;
         int amount = 0;
-        string userinput = "";
+        string userInput = "";
         Console.WriteLine("Its your turn Input a number to Attack!");
-        //The student will have to make some of the plaer functions
+        
 
-        if (userinput == "1") {
+        if (userInput == "0") {
            
         }
-        else if (userinput == "2") {
-            
-            
+        else if (userInput == "1") {
+           
         }
-        else if (userinput == "3") {
-            
+        else if (userInput == "2") {
+           
         }
-        Console.WriteLine('\n');
-
+        Console.WriteLine('\n'); //newline
+      
     }
 
     
