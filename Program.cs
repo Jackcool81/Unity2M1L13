@@ -12,7 +12,7 @@ class Project1Template{
     //TODO Part 1 While Loop
     public static void Main() {
         Console.WriteLine("Welcome to the fight club!");
-        
+        //Part 1 Code here
         
     }
 
